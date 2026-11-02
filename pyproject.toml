@@ -7,7 +7,9 @@ authors = [
     { name = "j-chalaud-ece", email = "jcchalaud@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "dbt-duckdb>=1.11.1",
+]
 
 [project.scripts]
 work = "work:main"
